@@ -38,7 +38,7 @@ majorKey = "2911"
 */
 var newVar = 0;
 
-for(i = 1; i >= 0; i--){
+for(i = array.length-1; i >= 0; i--){
   newVar += array[i];
 }
 /*
@@ -118,7 +118,7 @@ array = ["9","1"]
 */
 
 convertVal(majorKey);
-
+console.log(typeof(majorKey));
 console.log(majorKey);
 /*
 
